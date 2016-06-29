@@ -7,6 +7,7 @@
 //
 
 import SpriteKit
+import GameplayKit
 
 class GameScene: SKScene {
     
@@ -17,6 +18,7 @@ class GameScene: SKScene {
             gameScore.text = "Score: \(score)"
         }
     }
+    var popupTime = 0.85
     
     override func didMoveToView(view: SKView) {
         /* Setup your scene here */
