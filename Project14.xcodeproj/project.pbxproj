@@ -29,6 +29,7 @@
 		BB2BED471D2392C400A608BB /* whackHole@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB2BED391D2392C400A608BB /* whackHole@2x.png */; };
 		BB2BED481D2392C400A608BB /* whackMask.png in Resources */ = {isa = PBXBuildFile; fileRef = BB2BED3A1D2392C400A608BB /* whackMask.png */; };
 		BB2BED491D2392C400A608BB /* whackMask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB2BED3B1D2392C400A608BB /* whackMask@2x.png */; };
+		BB2BED4B1D2399D700A608BB /* WhackSlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2BED4A1D2399D700A608BB /* WhackSlot.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		BB2BED391D2392C400A608BB /* whackHole@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whackHole@2x.png"; sourceTree = "<group>"; };
 		BB2BED3A1D2392C400A608BB /* whackMask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whackMask.png; sourceTree = "<group>"; };
 		BB2BED3B1D2392C400A608BB /* whackMask@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whackMask@2x.png"; sourceTree = "<group>"; };
+		BB2BED4A1D2399D700A608BB /* WhackSlot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhackSlot.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				BB2BED2D1D2392C400A608BB /* Content */,
 				BB2BED2B1D2392AB00A608BB /* Helper.swift */,
 				BB2BED251D23921E00A608BB /* Info.plist */,
+				BB2BED4A1D2399D700A608BB /* WhackSlot.swift */,
 			);
 			path = Project14;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB2BED1A1D23921E00A608BB /* GameScene.swift in Sources */,
+				BB2BED4B1D2399D700A608BB /* WhackSlot.swift in Sources */,
 				BB2BED1C1D23921E00A608BB /* GameViewController.swift in Sources */,
 				BB2BED161D23921E00A608BB /* AppDelegate.swift in Sources */,
 				BB2BED2C1D2392AB00A608BB /* Helper.swift in Sources */,
